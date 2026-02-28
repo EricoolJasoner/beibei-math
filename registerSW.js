@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/beibei-math/sw.js', { scope: '/beibei-math/' })})}
